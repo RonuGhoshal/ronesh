@@ -1,0 +1,26 @@
+.contact-container {
+  padding-left: 224px;
+  max-width: 1000px;
+  font-size: 24px;
+  font-family: "Pangram-Black";
+}
+
+.contact-container a {
+  color: pink;
+  margin-left: 24px;
+}
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .contact-container {
+    padding-left: 16px;
+    padding-top: 20px;
+    font-size: 18px;
+    max-width: 100%;
+  }
+}

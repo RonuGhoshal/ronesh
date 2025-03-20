@@ -1,0 +1,56 @@
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  max-width: 1000px;
+  justify-content: left;
+  padding-left: 224px;
+}
+
+.album {
+  text-align: center;
+}
+
+.album-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.album-title {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.album-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.album-link:hover .album-cover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.album-link:hover .album-title {
+  color: #ff6347;
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .music-grid {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    padding-left: 20px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .music-grid {
+    grid-template-columns: 1fr;
+    padding-left: 10px;
+    max-width: 100%;
+  }
+}

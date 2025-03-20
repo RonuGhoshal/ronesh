@@ -1,0 +1,16 @@
+.blog-container {
+    padding-left: 224px;
+    max-width: 1000px;
+    font-size: 24px;
+    font-family: 'Pangram-Black';
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .blog-container {
+      padding-left: 16px;
+      padding-top: 20px;
+      font-size: 18px;
+      max-width: 100%;
+    }
+  }
