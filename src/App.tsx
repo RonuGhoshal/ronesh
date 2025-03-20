@@ -4,6 +4,7 @@ import Music from './components/Music'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
 import { useState, useEffect } from 'react'
+import logoImage from '../src/assets/ro.jpg';
 
 function App() {
   const [activeTab, setActiveTab] = useState(window.location.hash.replace('#', '') || 'home')
@@ -39,7 +40,7 @@ function App() {
     <div className="app-container">
       <header className="header">
         <div className="logo">
-          <img src="src/assets/ro.jpg" alt="Logo" className="logo-image" />
+          <img src={logoImage} alt="Logo" className="logo-image" />
           RONESH
         </div>
         <nav className="nav">
