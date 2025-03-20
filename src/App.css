@@ -62,7 +62,7 @@
 
 @font-face {
   font-family: 'Pangram-Black';
-  src: url('src/fonts/pangram-black.otf') format('opentype');
+  src: url('https://cdn.jsdelivr.net/gh/ronughoshal/ronesh/src/fonts/pangram-black.otf') format('opentype');
 }
 
 @media (max-width: 1024px) {
