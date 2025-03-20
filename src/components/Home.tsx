@@ -10,7 +10,7 @@ const Home = () => {
 
                 <p className="italic">Press Play For Unreleased Music!</p>
                 <audio controls>
-                    <source src="../src/assets/sadRaps.mp3" type="audio/mpeg" />
+                    <source src="https://cdn.jsdelivr.net/gh/ronughoshal/ronesh/src/assets/sadRaps.mp3" type="audio/mpeg" />
                     Your browser does not support the audio element.
                 </audio>
             </div>
